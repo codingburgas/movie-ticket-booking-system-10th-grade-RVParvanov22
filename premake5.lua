@@ -8,7 +8,7 @@ project "MovieTicketBookingSystem"
    targetdir "bin/%{cfg.buildcfg}"
 
    files { "main.cpp", "src/**.cpp", "include/**.h", "assets/**" }
-   includedirs { "include" }
+   includedirs { "include", "lib/json/include" }
 
    filter "configurations:Debug"
       defines { "DEBUG" }
