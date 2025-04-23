@@ -12,13 +12,25 @@
     <ClInclude Include="..\include\pch.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\user.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\userInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\user.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\userInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utlis.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
