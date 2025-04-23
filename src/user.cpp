@@ -70,8 +70,8 @@ bool User::checkPassword(const std::string& password)
 //Save user data to JSON
 nlohmann::json User::saveAsJson() {
 	nlohmann::json data;
-	data["email"] = Utiles::(this->email);
-	data["password"] = Utiles::(this->password);
+	data["email"] = this->email;
+	data["password"] = this->password;
 	data["userName"] = this->userName;
 	data["isAdmin"] = this->isAdmin;
 	return data;
@@ -96,8 +96,8 @@ bool User::loadFromFile(const std::string& fileName, const std::string& emailToF
 		}
 
 		std::string storedEmail = item.value("email", "");
-		if (storedEmail == emailToFind ||
-			Utiles::sha256FromString(emailToFind) == storedEmail) {
+		if (storedEmail == emailToFind) 
+		{
 
 			this->id = item.value("id", 0);
 			this->email = storedEmail;
