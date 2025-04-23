@@ -70,8 +70,8 @@ bool User::checkPassword(const std::string& password)
 //Save user data to JSON
 nlohmann::json User::saveAsJson() {
 	nlohmann::json data;
-	data["email"] = Utiles::sha256FromString(this->email);
-	data["password"] = Utiles::sha256FromString(this->password);
+	data["email"] = Utiles::(this->email);
+	data["password"] = Utiles::(this->password);
 	data["userName"] = this->userName;
 	data["isAdmin"] = this->isAdmin;
 	return data;
