@@ -89,15 +89,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h" />
+    <ClInclude Include="..\include\setColor.h" />
     <ClInclude Include="..\include\user.h" />
     <ClInclude Include="..\include\userInterface.h" />
     <ClInclude Include="..\include\utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\setColor.cpp" />
     <ClCompile Include="..\src\user.cpp" />
     <ClCompile Include="..\src\userInterface.cpp" />
     <ClCompile Include="..\src\utlis.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\graphic\header.txt" />
+    <None Include="..\assets\graphic\logIn.txt" />
+    <None Include="..\assets\graphic\register.txt" />
+    <None Include="..\assets\graphic\startScreen.txt" />
+    <None Include="..\assets\users.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

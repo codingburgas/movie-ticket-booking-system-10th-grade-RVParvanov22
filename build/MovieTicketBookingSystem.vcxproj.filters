@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{583885F2-44DA-AFC8-2D95-C31C19D63619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\graphic">
+      <UniqueIdentifier>{A52ACF54-91F8-C25A-7A8C-338166F99EBF}</UniqueIdentifier>
+    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
     </Filter>
@@ -10,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\setColor.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\user.h">
@@ -24,6 +33,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\setColor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\user.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -33,5 +45,22 @@
     <ClCompile Include="..\src\utlis.cpp">
       <Filter>src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\graphic\header.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\graphic\logIn.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\graphic\register.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\graphic\startScreen.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\users.json">
+      <Filter>assets</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -1,0 +1,18 @@
+===================================
+         NEW USER REGISTER
+===================================
+
+      =================
+        Create Account 
+      =================
+
+    =====================
+     Enter Email  : 
+     Enter Username: 
+     Enter Password: 
+     Confirm Password: 
+     Registering as Admin? (y/n): 
+    =====================
+
+    [ Register ]   [ Back ]
+===================================

@@ -5,11 +5,11 @@
 #include <iomanip>
 #include <fstream> 
 #include <cstdlib>
-#include <string>
+#include <sstream>
+#include <vector>
+#include <regex>
 
-
-
-#include "userInterface.h"
 #include "utils.h"
 #include "user.h"
-#include <regex>
+#include "userInterface.h"
+#include "setColor.h"

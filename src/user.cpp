@@ -1,5 +1,6 @@
 #include "pch.h"
 
+
 //Constructor that sets isAdmin to false by default
 User::User() {
 	this->isAdmin = false;
@@ -16,7 +17,7 @@ bool User::checkEmail(const std::string& email, const std::string& fileName)
 	//Checks if email already exists
 	for (const auto& item : data) {
 		if (item["email"] == email) {
-			std::cout << "             ERROR: Email already exists.\n             Enter Email: ";
+			std::cout << "     ERROR: Email already exists.\n     Enter Email: ";
 			return false;
 		}
 	}
@@ -24,7 +25,7 @@ bool User::checkEmail(const std::string& email, const std::string& fileName)
 	//Checks if the email meets all the requirements
 	std::regex email_regex(R"(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)");
 	if (!std::regex_match(email, email_regex)) {
-		std::cout << "             ERROR: Invalid email.\n             Enter Email: ";
+		std::cout << "     ERROR: Invalid email.\n     Enter Email: ";
 		return false;
 	}
 
@@ -36,7 +37,7 @@ bool User::checkEmail(const std::string& email, const std::string& fileName)
 		return true;
 	}
 	else {
-		std::cout << "             ERROR: Invalid email domain.\n             Enter Email: ";
+		std::cout << "     ERROR: Invalid email domain.\n     Enter Email: ";
 		return false;
 	}
 }
@@ -50,7 +51,7 @@ bool User::checkPassword(const std::string& password)
 	//Check if password is atleast 6 characters long
 	if (password.size() < 6)
 	{
-		std::cout << "             ERROR: Password must be at least 6 characters long.\n             Enter Password: ";
+		std::cout << "     ERROR: Password must be at least 6 characters long.\n     Enter Password: ";
 		return false;
 	}
 
@@ -62,7 +63,7 @@ bool User::checkPassword(const std::string& password)
 			return true;
 		}
 	}
-	std::cout << "             ERROR: Password must contain at least one special character.\n             Enter Password: ";
+	std::cout << "     ERROR: Password must contain at least one special character.\n     Enter Password: ";
 	return false;
 }
 
