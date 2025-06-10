@@ -12,7 +12,7 @@ UI::~UI() {
 
 void UI::startScreen()
 {
-    Utiles::SetColor(32);
+    Utiles::SetColor(33);
 
     Utiles::displayFile("../assets/graphic/startScreen.txt");
 

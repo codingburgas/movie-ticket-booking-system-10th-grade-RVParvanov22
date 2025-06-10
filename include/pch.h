@@ -12,4 +12,3 @@
 #include "utils.h"
 #include "user.h"
 #include "userInterface.h"
-#include "setColor.h"

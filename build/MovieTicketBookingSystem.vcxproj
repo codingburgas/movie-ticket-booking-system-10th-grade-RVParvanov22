@@ -89,14 +89,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h" />
-    <ClInclude Include="..\include\setColor.h" />
     <ClInclude Include="..\include\user.h" />
     <ClInclude Include="..\include\userInterface.h" />
     <ClInclude Include="..\include\utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\src\setColor.cpp" />
     <ClCompile Include="..\src\user.cpp" />
     <ClCompile Include="..\src\userInterface.cpp" />
     <ClCompile Include="..\src\utlis.cpp" />
