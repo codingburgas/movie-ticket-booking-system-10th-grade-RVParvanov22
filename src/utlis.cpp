@@ -1,20 +1,17 @@
- #include "pch.h"
+#include "pch.h"
 
 namespace Utiles
 {
-	//Set color to text
 	void SetColor(int textColor)
 	{
 		std::cout << "\033[" << textColor << "m";
 	}
 
-	//Reset color to default
 	void resetColor()
 	{
 		std::cout << "\033[0m";
 	}
 
-	//Returns data from JSON file 
 	nlohmann::json loadFile(const std::string& fileName)
 	{
 		nlohmann::json dataToSave;
@@ -31,7 +28,6 @@ namespace Utiles
 		return dataToSave;
 	}
 
-	//Displays the contents of a txt file
 	void displayFile(const std::string& fileName) {
 		std::ifstream file(fileName);
 
@@ -44,7 +40,6 @@ namespace Utiles
 		}
 	}
 
-	//Saves data to JSON file
 	void saveToFile(const std::string& fileName, const nlohmann::json& data) {
 		nlohmann::json existingData;
 		nlohmann::json inData = data;
@@ -70,7 +65,6 @@ namespace Utiles
 		}
 	}
 
-	//Checks if the given file can open
 	bool isFileEmpty(const std::string& fileName) {
 		std::ifstream file(fileName);
 

@@ -1,19 +1,26 @@
 #pragma once
 #include "pch.h"
+#include "adminSystem.h"
 
 class UI
 {
 public:
-	UI();
-	~UI();
+    UI();
+    ~UI();
 
-	void mainMenu();
+    void mainMenu();
+
 private:
-	void startScreen();
-	void registerUI();
-	void registerAsAdmin();
-	void logInUi();
+    void startScreen();
+    void registerUI();
+    void registerAsAdmin();
+    void logInUi();
+    void displayCategoriesMenu();
+    void displayHorrorMenu();
+    void displayFantasyMenu();
+    void displayThrillerMenu();
 
-	User* user;
+    void adminMenu(); 
+    User* user;
+    AdminSystem adminSystem;
 };
-

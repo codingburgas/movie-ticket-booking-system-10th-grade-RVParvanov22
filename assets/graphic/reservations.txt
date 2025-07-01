@@ -1,0 +1,12 @@
+User: 
+Movie: Eragon
+Time: 18:00
+--------------------------
+User: ruci@abv.bg
+Movie: The Chronicles of Narnia
+Time: 18:00
+--------------------------
+User: 
+Movie: Harry Potter
+Time: 18:00
+--------------------------

@@ -1,0 +1,77 @@
+[
+    {
+        "category": "Horror",
+        "description": "Paranormal investigators help a family terrorized by a dark presence.",
+        "name": "The Conjuring"
+    },
+    {
+        "category": "Horror",
+        "description": "A family looks to prevent evil spirits from trapping their comatose child.",
+        "name": "Insidious"
+    },
+    {
+        "category": "Horror",
+        "description": "A grieving family is haunted by tragic and disturbing occurrences.",
+        "name": "Hereditary"
+    },
+    {
+        "category": "Horror",
+        "description": "A family must live in silence to avoid mysterious creatures that hunt by sound.",
+        "name": "A Quiet Place"
+    },
+    {
+        "category": "Horror",
+        "description": "A mother and son are haunted by a sinister presence from a mysterious book.",
+        "name": "The Babadook"
+    },
+    {
+        "category": "Fantasy",
+        "description": "A hobbit and his friends set out to destroy a powerful ring.",
+        "name": "The Lord of the Rings"
+    },
+    {
+        "category": "Fantasy",
+        "description": "A young wizard attends a magical school and faces a dark sorcerer.",
+        "name": "Harry Potter"
+    },
+    {
+        "category": "Fantasy",
+        "description": "Four siblings enter a magical world and help defeat an evil witch.",
+        "name": "The Chronicles of Narnia"
+    },
+    {
+        "category": "Fantasy",
+        "description": "A farm boy discovers a dragon egg and becomes a Dragon Rider.",
+        "name": "Eragon"
+    },
+    {
+        "category": "Fantasy",
+        "description": "A young man ventures into a magical realm to retrieve a fallen star.",
+        "name": "Stardust"
+    },
+    {
+        "category": "Thriller",
+        "description": "A thief enters dreams to plant an idea, blurring the line between reality and dreams.",
+        "name": "Inception"
+    },
+    {
+        "category": "Thriller",
+        "description": "A man becomes the prime suspect when his wife disappears.",
+        "name": "Gone Girl"
+    },
+    {
+        "category": "Thriller",
+        "description": "U.S. Marshals investigate a disappearance at a remote asylum.",
+        "name": "Shutter Island"
+    },
+    {
+        "category": "Thriller",
+        "description": "A father takes matters into his own hands after his daughter goes missing.",
+        "name": "Prisoners"
+    },
+    {
+        "category": "Thriller",
+        "description": "A journalist and a hacker investigate a wealthy family's dark secrets.",
+        "name": "The Girl With The Dragon Tattoo"
+    } 
+]

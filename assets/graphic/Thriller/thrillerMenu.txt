@@ -1,0 +1,12 @@
+=======================================
+     So you chose Thriller.
+     What do you want to watch?
+=======================================
+
+  1) Inception
+  2) Gone Girl
+  3) Shutter Island
+  4) Prisoners
+  5) The Girl with the Dragon Tattoo
+
+(Enter a number to view more information)

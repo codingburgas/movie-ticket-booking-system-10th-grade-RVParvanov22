@@ -1,0 +1,12 @@
+=======================================
+     So you chose Horror.
+     What do you want to watch?
+=======================================
+
+  1) The Conjuring
+  2) Insidious
+  3) Hereditary
+  4) A Quiet Place
+  5) The Babadook
+
+Choose a film:

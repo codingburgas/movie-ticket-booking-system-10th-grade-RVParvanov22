@@ -1,0 +1,10 @@
+=== ADMIN MENU ===
+1. Add Movie
+2. Delete Movie
+3. Edit Movie
+4. Add Projection
+5. Delete Projection
+6. Edit Projection
+7. Return to Main Menu
+
+Please select an option:

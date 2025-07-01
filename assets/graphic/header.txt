@@ -16,6 +16,8 @@
 
                 [1] Create New Account
                 [2] Login
-                [3] Log Out
+                [3] Find the best movie for you
+                [4] Log Out
+
 
 

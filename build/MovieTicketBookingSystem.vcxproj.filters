@@ -7,6 +7,15 @@
     <Filter Include="assets\graphic">
       <UniqueIdentifier>{A52ACF54-91F8-C25A-7A8C-338166F99EBF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="assets\graphic\Fantasy">
+      <UniqueIdentifier>{0AE65C89-F6DF-85DB-DF4C-1CECCBE5EB47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\graphic\Horror">
+      <UniqueIdentifier>{90CA47DB-FC36-03D6-C52A-9B333156253E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\graphic\Thriller">
+      <UniqueIdentifier>{1A72FEC3-86A9-465B-8FB3-AA7EFB696D54}</UniqueIdentifier>
+    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
     </Filter>
@@ -15,7 +24,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\adminSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\reservationSystem.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\user.h">
@@ -30,6 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\adminSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\reservationSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\user.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -41,6 +62,69 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\assets\cards.json">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\Eragon.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\Stardust.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\fantasyMenu.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\harryPotterAndTheSorcerer.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\lordOfTheRings.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Fantasy\theChroniclesOfNarnia.txt">
+      <Filter>assets\graphic\Fantasy</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\Hereditary.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\Insidious.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\aQuietPlace.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\horrorHeader.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\theBabadook.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Horror\theConjuring.txt">
+      <Filter>assets\graphic\Horror</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\Inception.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\Prisoners.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\goneGirl.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\shutterIsland.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\theGirlWithTheDragonTatto.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\Thriller\thrillerMenu.txt">
+      <Filter>assets\graphic\Thriller</Filter>
+    </None>
+    <None Include="..\assets\graphic\adminMenu.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\graphic\categories.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
     <None Include="..\assets\graphic\header.txt">
       <Filter>assets\graphic</Filter>
     </None>
@@ -50,8 +134,23 @@
     <None Include="..\assets\graphic\register.txt">
       <Filter>assets\graphic</Filter>
     </None>
+    <None Include="..\assets\graphic\reservations.txt">
+      <Filter>assets\graphic</Filter>
+    </None>
     <None Include="..\assets\graphic\startScreen.txt">
       <Filter>assets\graphic</Filter>
+    </None>
+    <None Include="..\assets\movies.json">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="..\assets\notifications.json">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="..\assets\projections.json">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="..\assets\reservations.json">
+      <Filter>assets</Filter>
     </None>
     <None Include="..\assets\users.json">
       <Filter>assets</Filter>

@@ -1,0 +1,12 @@
+=======================================
+     So you chose Fantasy.
+     What do you want to watch?
+=======================================
+
+  1) The Lord of the Rings
+  2) Harry Potter and the Sorcerer's Stone
+  3) The Chronicles of Narnia
+  4) Eragon
+  5) Stardust
+
+Choose:

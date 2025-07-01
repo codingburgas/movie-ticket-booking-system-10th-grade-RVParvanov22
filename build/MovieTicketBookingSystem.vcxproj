@@ -88,22 +88,52 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\adminSystem.h" />
     <ClInclude Include="..\include\pch.h" />
+    <ClInclude Include="..\include\reservationSystem.h" />
     <ClInclude Include="..\include\user.h" />
     <ClInclude Include="..\include\userInterface.h" />
     <ClInclude Include="..\include\utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\adminSystem.cpp" />
+    <ClCompile Include="..\src\reservationSystem.cpp" />
     <ClCompile Include="..\src\user.cpp" />
     <ClCompile Include="..\src\userInterface.cpp" />
     <ClCompile Include="..\src\utlis.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\assets\cards.json" />
+    <None Include="..\assets\graphic\Fantasy\Eragon.txt" />
+    <None Include="..\assets\graphic\Fantasy\Stardust.txt" />
+    <None Include="..\assets\graphic\Fantasy\fantasyMenu.txt" />
+    <None Include="..\assets\graphic\Fantasy\harryPotterAndTheSorcerer.txt" />
+    <None Include="..\assets\graphic\Fantasy\lordOfTheRings.txt" />
+    <None Include="..\assets\graphic\Fantasy\theChroniclesOfNarnia.txt" />
+    <None Include="..\assets\graphic\Horror\Hereditary.txt" />
+    <None Include="..\assets\graphic\Horror\Insidious.txt" />
+    <None Include="..\assets\graphic\Horror\aQuietPlace.txt" />
+    <None Include="..\assets\graphic\Horror\horrorHeader.txt" />
+    <None Include="..\assets\graphic\Horror\theBabadook.txt" />
+    <None Include="..\assets\graphic\Horror\theConjuring.txt" />
+    <None Include="..\assets\graphic\Thriller\Inception.txt" />
+    <None Include="..\assets\graphic\Thriller\Prisoners.txt" />
+    <None Include="..\assets\graphic\Thriller\goneGirl.txt" />
+    <None Include="..\assets\graphic\Thriller\shutterIsland.txt" />
+    <None Include="..\assets\graphic\Thriller\theGirlWithTheDragonTatto.txt" />
+    <None Include="..\assets\graphic\Thriller\thrillerMenu.txt" />
+    <None Include="..\assets\graphic\adminMenu.txt" />
+    <None Include="..\assets\graphic\categories.txt" />
     <None Include="..\assets\graphic\header.txt" />
     <None Include="..\assets\graphic\logIn.txt" />
     <None Include="..\assets\graphic\register.txt" />
+    <None Include="..\assets\graphic\reservations.txt" />
     <None Include="..\assets\graphic\startScreen.txt" />
+    <None Include="..\assets\movies.json" />
+    <None Include="..\assets\notifications.json" />
+    <None Include="..\assets\projections.json" />
+    <None Include="..\assets\reservations.json" />
     <None Include="..\assets\users.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
